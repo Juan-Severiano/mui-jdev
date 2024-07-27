@@ -1,0 +1,25 @@
+{
+  "name": "mui-jdev",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mui", "materialui", "react", "styles"],
+  "author": "Francisco Juan",
+  "license": "ISC",
+  "description": "A npm package to styles my website",
+  "peerDependencies": {
+    "@mui/material": "^5.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
+  }
+}
